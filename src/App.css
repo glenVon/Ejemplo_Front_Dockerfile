@@ -1,6 +1,9 @@
 .App {
   min-height: 100vh;
-  background: linear-gradient(135deg, #e3e991 0%, #7e041a 100%);
+  /* background: linear-gradient(135deg, #e3e991 0%, #7e041a 100%); */
+  background-image: url('./FB_IMG_1734828482197.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
