@@ -36,3 +36,4 @@ jobs:
             sudo docker rm frontend-app || true
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/innovatech-frontend:latest
             sudo docker run -d -p 80:80 --name frontend-app ${{ secrets.DOCKER_USERNAME }}/innovatech-frontend:latest
+ 
